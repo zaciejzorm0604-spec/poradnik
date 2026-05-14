@@ -57,7 +57,7 @@ function App() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://n8n.procesflow.pl/webhook-test/898405ac-2f90-4602-bc34-78180805728e', {
+      const response = await fetch('https://n8n.procesflow.pl/webhook/898405ac-2f90-4602-bc34-78180805728e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
