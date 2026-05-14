@@ -130,6 +130,14 @@ function App() {
                 <Phone className="w-5 h-5 mr-2" />
                 Zadzwoń teraz
               </a>
+              <a
+                href="https://buy.stripe.com/6oU5kD6tv1g7gNTfI1co000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white/10 border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-white/20 transition-all w-full sm:w-auto"
+              >
+                Kup pełną wersję e-booka
+              </a>
             </div>
 
             <div className="flex justify-center">
